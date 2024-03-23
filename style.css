@@ -1,0 +1,192 @@
+
+body {
+    background-image: url("./peak.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:100%;
+    overflow-x:hidden;
+    overflow-y: hidden;
+  }
+
+
+
+#nidorinopng{
+    position: absolute;
+    bottom: -4px;
+    left: 50px;
+  }
+
+.nidorinoresize{
+    height: 200%;
+    width: 200%;
+}
+
+#gengarpng{
+    position: absolute;
+    top: 4vh;
+    right: 12vw;
+}
+
+#gengarresize{
+    height: 200%;
+    width: 200%;
+}
+
+.hpbarstyle{
+    position: absolute;
+    left: 0px;
+    bottom: 300px;
+    width: 25%;
+}
+
+.hpbarfoestyle{
+    position: absolute;
+    top: 300px;
+    right: 0px;
+    width: 25% ;
+}
+
+.overlay_fightstyle{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+    width: 65%;
+}
+
+.player_bottom{
+    position: absolute;
+    bottom: -10px;
+    left: -50px;
+    z-index: -1;
+}
+
+.foe_bottom{
+    position: relative;
+    top: 25vh;
+    right: -74vw;
+    z-index: -1;
+
+}
+.foe_bottom img{
+    width: 400px;
+}
+.hpoverlay_you{
+    position: absolute;
+    bottom: 322px;
+    left: 169px;
+    width: 9.3%;
+    height: 1.5%;
+}
+
+.hpoverlay_foe{
+    position: absolute;
+    top: 356px;
+    right: 40px;
+    width: 9.3%;
+    height: 1.5%;
+}
+
+.health-bar {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.horn-attack{
+    height: 10%;
+    width: 23%;
+    position: absolute;
+    bottom: 100px;
+    right: 624px;
+    z-index: 1;
+}
+
+.hpfoe{
+    position: absolute;
+    top: 352px;
+    right: 40px;
+}
+
+#health{
+ width: 140px;
+ /* transition : width 5s ease; */
+}
+
+.poison-jab{
+    height: 10%;
+    width: 24%;
+    position: absolute;
+    bottom: 100px;
+    right: 265px;
+    z-index: 1;
+}
+
+.hpyou{
+    position: absolute;
+    bottom: 318px;
+    left: 169px;
+    /* transition : width 5s ease; */
+}
+
+#healthyou{
+    width: 140px;
+   }
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(./PKMN\ RBYGSC.ttf) format("truetype");
+}
+
+.movetxt1{
+    position: absolute;
+    bottom: 15.5vh;
+    left: 42vw;
+    font-family: "My Custom Font";
+    z-index: 2;
+}
+
+.movetxt2{
+    position: absolute;
+    bottom: 15.5vh;
+    left: 67vw;
+    font-family: "My Custom Font";
+    z-index: 2;
+}
+
+.movetxt3{
+    position: absolute;
+    bottom: 4.5vh;
+    left: 37vw;
+    font-family: "My Custom Font";
+    z-index: 2;
+}
+
+.movetxt4{
+    position: absolute;
+    bottom: 3vh;
+    left: 60vw;
+    font-family: "My Custom Font";
+    z-index: 2;
+    width: 400px;
+}
+
+.nidorinoname{
+    position: absolute;
+    font-family: "My Custom Font";
+    left: 10vw;
+    bottom: 46vh;
+}
+
+.gengarname{
+    position: absolute;
+    font-family: "My Custom Font";
+    right: 3vw;
+    top: 43vh;
+}
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(./PKMN\ RBYGSC.ttf) format("truetype");
+}
+.buttonstart{
+    background-color: black;
+    color: white;
+    margin-left: 70vh;
+    width: 30%;
+    height: 50px;
+    border: 3px white;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 50vh;
+    font-family: "My Custom Font";
+}
+
+.text1{
+    font-size:xx-large
+}

@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.youwon{
+    color: white;
+    text-align: center;
+    margin-top: 50vh;
+    font-family: "My Custom Font";
+}
+
+@font-face {
+    font-family: "My Custom Font";
+    src: url(./PKMN\ RBYGSC.ttf) format("truetype");
+}
+
+.buttonrestart{
+    background-color: black;
+    color: white;
+    margin-left: 91vh;
+}

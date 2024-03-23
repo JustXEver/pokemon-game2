@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- your pokemon -->
+    <div class="yourbattler">
+        <div id="nidorinopng">
+            <img src="./nidorino.png" alt="" class="nidorinoresize">
+        </div>
+        <div class="hpbaryou">
+            <img src="./hpbar_you.png" alt="" class="hpbarstyle">
+            <!-- <img src="./overlay_hp_green.png" alt="" class="hpoverlay_you"> -->
+        </div>
+        <div class="hpyou">
+            <progress id="healthyou" value="100" max="100"></progress>
+        </div>
+        <!-- <button onclick="damageyou()">hit yourself</button>
+        <button onclick="resetyou()">reset your hp</button> -->
+
+
+    </div>
+    <div class="player_bottom">
+        <img src="./player_bottom.png" alt="">
+    </div>
+
+    <!-- foe pokemon -->
+    <div class="enemybattler">
+        <div id="gengarpng">
+            <img src="./gengar.png" alt="" id="gengarresize">
+        </div>
+        <div class="hpbarfoe">
+            <img src="./hpbar_foe.png" alt="" class="hpbarfoestyle">
+            <!-- <img src="./overlay_hp_green.png" alt="" class="hpoverlay_foe"> -->
+        </div>
+        <div class="hpfoe">
+            <progress id="health" value="100" max="100"></progress>
+        </div>
+        <!-- <button onclick="damage()">hit</button>
+        <button onclick="reset()">reset</button> -->
+
+
+
+
+
+
+        <div class="foe_bottom">
+            <img src="./foe_bottom.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- moveset -->
+    <div class="moveset">
+        <!-- <div class="move1"><button class="horn-attack" onclick="damage()"><img src="./normal-attack.png" alt="" class="horn-attackpng"></button></div> -->
+        <div class="move1" onclick="damage()"><p class="movetxt1">Horn-attack</p><img src="./normal-attack.png" alt="" class="horn-attack" ></div>
+        <div class="move2"><p class="movetxt2" onclick="damage2()">Poison-jab</p><img src="./poison-move.png" alt="" class="poison-jab" onclick="damage2()"></div>
+        <div class="move3"><p class="movetxt3">a big strike with it's horn.</p></div>
+        <div class="move4"><p class="movetxt4">strike the foe with it's horn injecting poison on it's way.</p></div>
+        
+    </div>
+
+
+    <!-- overlay fight -->
+    <div class="overlayfight">
+        <div>
+            <img src="./overlay_fight.png" alt="" class="overlay_fightstyle">
+        </div>
+
+    </div>
+
+    <p class="nidorinoname">Nidorino Lvl.50</p>
+    <p class="gengarname">Gengar Lvl.45</p>
+
+<script src="script.js"></script>
+</body>
+</html>
